@@ -1,0 +1,16 @@
+[Interface]
+PrivateKey = tESv9T2+zV+bHEPtzaFer9zxAREXThgDZvWFz+0QHw=
+Address = 10.0.0.13/24
+ListenPort = 51820
+
+[Peer]
+PublicKey = IzJJ1SI8dPkwq+E1Ur4va7tU0FV+CKedX0pr0ZFtsgI=
+AllowedIPs = 10.0.0.11/32
+Endpoint = 10.0.0.11:51820
+PersistentKeepalive = 25
+
+[Peer]
+PublicKey = wN8KBCXHQBP2nMJwCZCV0PBJ+jdbR3MUBVZy+mb50Bk=
+AllowedIPs = 10.0.0.12/32
+Endpoint = 10.0.0.12:51820
+PersistentKeepalive = 25
